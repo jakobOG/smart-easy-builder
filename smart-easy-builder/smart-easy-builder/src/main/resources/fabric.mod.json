@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "smart_easy_builder",
+  "version": "${version}",
+  "name": "Smart Easy Builder",
+  "description": "Clientseitiges, komfortables Nachbauen von Litematica-Schematics im Survival (Easy Place mit Hotbar-Verwaltung, Intervallen und Server-Bestaetigung).",
+  "authors": ["Smart Easy Builder Contributors"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.smarteasybuilder.SmartEasyBuilder"]
+  },
+  "mixins": ["smart_easy_builder.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "litematica": "*"
+  }
+}
